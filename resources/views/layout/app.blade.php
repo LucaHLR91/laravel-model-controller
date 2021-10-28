@@ -8,6 +8,7 @@
 </head>
 <body>
     @include('partials.header')
+    @yield('movies')
     @include('partials.footer')
 </body>
 </html>
